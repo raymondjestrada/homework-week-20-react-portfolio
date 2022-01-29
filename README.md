@@ -10,7 +10,7 @@
 * [Questions](#questions)
 
 ## Description <a name="description"></a>
-This is my portfolio and it includes ```About Me```, ```Projects```, ```Contact Me```, and ```Resume``` sections.  The portfolio also includes links to my GitHub, LinkedIn, and StackOverflow profiles.  The application was built using ```create-react-app``` and currently does not include a back-end.  The application utilizes FontAwesome for the GitHub icon and was styled completely in vanilla CSS.  Media queries are used for mobile responsiveness. 
+This is my portfolio and it includes ```About Me```, ```Projects```, ```Contact Me```, and ```Resume``` sections.  The portfolio also includes links to my GitHub, and LinkedIn profiles.  The application was built using ```create-react-app``` and currently does not include a back-end.  The application utilizes FontAwesome for the GitHub icon and was styled completely in vanilla CSS.  Media queries are used for mobile responsiveness. 
 
 ## Installation <a name="installation"></a>
 To use the code from this application, please do the following: 

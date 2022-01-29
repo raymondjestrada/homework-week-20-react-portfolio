@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000d85;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+
+.header article {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header article ul {
+    list-style-type: none;
+}
+
+.header article ul li {
+    display: inline-block;
+    margin-left: 25px;
+    flex-direction: row;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("assets/max-weiser.jpg"); 
+    background-size: center;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
+    background-color: #000d85;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 900px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
+    background-color: #000d85;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
+    background-color: #000d85;
+    color: #ffffff;
+}
+
+.about-me img {
+    max-height: 200px;
+}
+
+.work img {
+    max-height: 200px;
+    padding: 10px;
+}
+
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.work p {
+    max-height: 200px;
+}
+
+.contact-me p {
+    margin-left: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 15px;
+}
