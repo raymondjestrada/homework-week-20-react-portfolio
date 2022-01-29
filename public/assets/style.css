@@ -52,7 +52,7 @@ p {
 .hero {
     height: 800px;
     width: 100%;
-    background-image: url("assets/max-weiser.jpg"); 
+    background-image: url("max-weiser.jpg"); 
     background-size: center;
     background-position: center;
 }
